@@ -53,9 +53,6 @@ void setup() {
         DualSerial.println("Fehler."); }
 
     DualSerial.println("Einsatzbereit!");
-    DualSerial.println(URL_FW_VERSION);
-    DualSerial.println(URL_FW_BIN);
-    DualSerial.println(URL_FS_BIN);
 }
 
 
